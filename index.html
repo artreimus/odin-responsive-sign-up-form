@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-content"></div>
+      <div class="right-content">
+        <div class="header">
+          <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+            consectetur, maxime earum repellendus maiores tempore?
+          </p>
+        </div>
+        <form action="#">
+          <div class="user-details">
+            <div class="row-container">
+              <div class="input-box">
+                <label for="first-name">First Name</label>
+                <input
+                  id="first-name"
+                  class="input-block"
+                  name="full-name"
+                  type="text"
+                  placeholder="First Name"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <label for="first-name">Last Name</label>
+                <input
+                  id="last-name"
+                  class="input-block"
+                  name="last-name"
+                  type="text"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row-container">
+              <div class="input-box">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  class="input-block"
+                  name="email"
+                  type="email"
+                  placeholder="johndoe@gmail.com"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <label for="phone-number">Phone Number</label>
+                <input
+                  id="phone-number"
+                  class="input-block"
+                  name="phone-number"
+                  type="number"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row-container">
+              <div class="input-box">
+                <label for="password-one">Password</label>
+                <input
+                  id="password-one"
+                  class="input-block"
+                  name="password-one"
+                  type="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <label for="password-two">Confirm Password</label>
+                <input
+                  id="password-two"
+                  class="input-block"
+                  name="password-two"
+                  type="password"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row-container">
+              <fieldset class="legacy-form-row">
+                <legend>Gender</legend>
+                <input
+                  id="male"
+                  name="gender"
+                  type="radio"
+                  value="main-stage"
+                  required
+                />
+                <label for="male" class="radio-label">Male</label>
+                <input
+                  id="female"
+                  name="gender"
+                  type="radio"
+                  value="workshop"
+                />
+                <label for="female" class="radio-label">Female</label>
+                <input
+                  id="non-binary"
+                  name="gender"
+                  type="radio"
+                  value="non-binary"
+                />
+                <label for="non-binary" class="radio-label">Non Binary</label>
+              </fieldset>
+            </div>
+          </div>
+
+          <div class="row-container">
+            <button>Create Account</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
